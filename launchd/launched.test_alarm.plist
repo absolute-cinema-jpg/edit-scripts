@@ -8,15 +8,19 @@
     <array>
       <string>sh</string>
       <string>-c</string>
-      <string>$HOME/github/project-backup/test_sound.sh</string>
+      <string>$HOME/github/project-backup/testNew.sh</string>
     </array>
+    <key>StandardErrorPath</key>
+    <string>$HOME/backup_launchd.err</string>
+    <key>StandardOutPath</key>
+    <string>$HOME/backup_launchd.out</string>
     <key>StartCalendarInterval</key>
     <array>
       <dict>
         <key>Hour</key>
-        <integer>19</integer>
+        <integer>14</integer>
         <key>Minute</key>
-        <integer>08</integer>
+        <integer>32</integer>
       </dict>
     </array>
   </dict>
