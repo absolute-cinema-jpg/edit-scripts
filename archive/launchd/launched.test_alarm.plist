@@ -3,20 +3,20 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>launched.proj-backup</string>
+    <string>launched.test_alarm</string>
     <key>ProgramArguments</key>
     <array>
       <string>sh</string>
       <string>-c</string>
-      <string>$HOME/github/project-backup/proj-backup.sh</string>
+      <string>$HOME/github/project-backup/testNew.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <array>
       <dict>
         <key>Hour</key>
-        <integer>11</integer>
+        <integer>09</integer>
         <key>Minute</key>
-        <integer>07</integer>
+        <integer>27</integer>
       </dict>
     </array>
   </dict>

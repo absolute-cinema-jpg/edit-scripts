@@ -6,22 +6,19 @@
     <string>launched.proj-backup</string>
     <key>ProgramArguments</key>
     <array>
-	<string>sh</string>
-	<string>-c</string>
-      	<string>$HOME/github/project-backup/proj-backup.sh</string>
+      <string>sh</string>
+      <string>-c</string>
+      <string>$HOME/github/project-backup/proj-backup.sh</string>
     </array>
-    <key>StandardErrorPath</key>
-    <string>$HOME/backup_launchd.err</string>
-    <key>StandardOutPath</key>
-    <string>$HOME/backup_launchd.out</string>
     <key>StartCalendarInterval</key>
     <array>
       <dict>
         <key>Hour</key>
-        <integer>14</integer>
+        <integer>17</integer>
         <key>Minute</key>
-        <integer>45</integer>
+        <integer>30</integer>
       </dict>
     </array>
   </dict>
 </plist>
+
